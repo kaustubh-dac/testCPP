@@ -3,6 +3,6 @@ using namespace std;
 
 int main()
 {
-    cout<<"Hello World First time automatic"<<endl;
+    cout<<"Hello World Another push"<<endl;
     return 0;
 }
