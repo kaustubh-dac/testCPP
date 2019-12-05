@@ -5,6 +5,6 @@ COPY . /home/test
 WORKDIR /home/test
 RUN ls -all
 RUN apt-get update -y && apt-get install g++ -y
-CMD g++ helloworld.cpp -o helloworld
+RUN g++ helloworld.cpp
 RUN ls -all
-CMD ./home/test/helloworld
+CMD ./a.out
